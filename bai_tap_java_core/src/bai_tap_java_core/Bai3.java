@@ -4,12 +4,12 @@ public class Bai3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Java Version: 1.8.0_71");
-		System.out.println("Java Runtime Version: 1.8.0_71-b15");
-		System.out.println("Java Home: /opt/jdk/jdk1.8.0_71/jre");
-		System.out.println("Java Vendor: Oracle Corporation");
-		System.out.println("Java Vendor URL: https://Java.oracle.com/");
-		System.out.println("Java Class Path: .");
+		System.out.println("Java version: "+System.getProperty("java.version"));
+		System.out.println("Java Runtime Version: "+System.getProperty("java.runtime.version"));
+		System.out.println("Java Home: "+ System.getProperty("java.home"));
+		System.out.println("Java Vendor: "+ System.getProperty("java.vendor"));
+		System.out.println("Java Vendor URL: "+ System.getProperty("java.vendor.url"));
+		System.out.println("Java Class Path: "+ System.getProperty("java.class.path"));
 	}
 
 }
